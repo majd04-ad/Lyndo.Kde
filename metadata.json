@@ -1,0 +1,26 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "zayronxio",
+                "Email": "adolfo@librepixels.com"
+            },
+            {
+                "Name": "Majd Abu Diab"
+            }
+        ],
+        "BugReportUrl": "https://github.com/majd04-ad/Lyndo.Kde/issues",
+        "Category": "Date and Time",
+        "Description": "Clock and weather",
+        "EnabledByDefault": true,
+        "Icon": "clock",
+        "Id": "Lyndo.Kde",
+        "License": "GPL-3.0-or-later",
+        "Name": "Lyndo Kde",
+        "Version": "0.6.0",
+        "Website": "https://github.com/majd04-ad/Lyndo.Kde"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml"
+}

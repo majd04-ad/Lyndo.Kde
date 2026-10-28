@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <entry name="locationMode" type="Int">
+      <label>Location source: 0 = automatic from the IP address, 1 = city name, 2 = coordinates</label>
+      <default>0</default>
+    </entry>
+    <entry name="cityName" type="String">
+      <label>City used when the location source is a city name</label>
+      <default></default>
+    </entry>
+    <entry name="latitudeC" type="String">
+      <label>Manual latitude</label>
+      <default>0</default>
+    </entry>
+    <entry name="longitudeC" type="String">
+      <label>Manual longitude</label>
+      <default>0</default>
+    </entry>
+    <entry name="temperatureUnit" type="Int">
+      <label>Temperature unit: 0 = Celsius, 1 = Fahrenheit</label>
+      <default>0</default>
+    </entry>
+    <entry name="colorHex" type="Color">
+      <label>Text color</label>
+      <default>#ffffff</default>
+    </entry>
+    <entry name="accentColor" type="Color">
+      <label>Accent color</label>
+      <default>#018abd</default>
+    </entry>
+  </group>
+</kcfg>
